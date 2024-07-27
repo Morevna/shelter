@@ -225,6 +225,7 @@ a {
     gap: 10px;
     border-radius: 100px;
     border: 2px solid #F1CDB3;
+    background: transparent;
 }
 
 .button-text {
@@ -243,6 +244,7 @@ a {
     align-items: center;
     border-radius: 100px;
     border: 2px solid #F1CDB3;
+    background: transparent;
 }
 
 .buttonarrow {
