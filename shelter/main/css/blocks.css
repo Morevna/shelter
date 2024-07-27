@@ -227,6 +227,17 @@ a {
     border: 2px solid #F1CDB3;
 }
 
+.button-text {
+    color: var(--color-dark-l, #545454);
+    text-align: center;
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
 .button_arrow {
     padding: 23px 19px;
     align-items: center;
@@ -389,6 +400,7 @@ a {
 
 /* 7 */
 footer {
+    background-image: url(../img/start-screen-background.jpg);
     background-image: url(../img/start-screen-gradient-background.jpg), radial-gradient(circle farthest-corner at 0px 0px, #5B483A 0%, #e1bbce 65%);
     background-size: cover;
     max-width: 1280рх;
@@ -438,7 +450,6 @@ footer {
 
 .text {
     color: var(--color-primary, #F1CDB3);
-    /* h4 */
     font-family: Georgia;
     font-size: 20px;
     font-style: normal;
