@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .wrapper-1,
 .wrapper-2,
 .wrapper-3 {
@@ -47,7 +51,10 @@ ul {
 }
 
 a:active,
-a:hover,
+a:hover {
+    color: var(--color-dark-3xl, #000000);
+}
+
 a {
     text-decoration: none;
     color: #666;
@@ -55,12 +62,25 @@ a {
 
 .our-pets {
     border-bottom: solid 3px #F1CDB3;
-    color: #FAFAFA;
+}
+
+.our-pets-link {
+    pointer-events: none;
+    color: var(--color-dark-3xl, #000000);
+    font-family: Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 24px */
 }
 
 
 
 /* 2 */
+main {
+    background: var(--color-light-l, #F6F6F6);
+}
+
 .our-friends {
     margin: 0 auto;
     width: 400px;

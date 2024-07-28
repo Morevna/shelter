@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img\img_icons\favicon-shelter.png">
     <link rel="stylesheet" href=".\css\style.css">
+    <script type="" src="./script.js"></script>
     <title>shelter</title>
 </head>
 
@@ -27,17 +28,20 @@
                         <div class="navigation">
                             <nav>
                                 <ul class="header__list">
-                                    <li class=" about-shelter header__item">
-                                        <a href="#">About the shelter</a>
+                                    <li class="header__item">
+                                        <a class="about-shelter" href="#">About the shelter</a>
                                     </li>
+
                                     <li class="header__item">
                                         <a href="../our-pets/index.html">Our pets</a>
                                     </li>
+
                                     <li class="header__item">
-                                        <a href="">Help the shelter</a>
+                                        <a href="#helpanchor">Help the shelter</a>
                                     </li>
+
                                     <li class="header__item">
-                                        <a href="">Contacts</a>
+                                        <a href="#contactsanchor">Contacts</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -61,7 +65,9 @@
                                     open
                                     heart. He or she will love you more than anybody else in the world, you will see!
                                 </p>
-                                <button class="button_primary">Make a friend</button>
+                                <form action="#friendanchor">
+                                    <button class="button_primary">Make a friend</button>
+                                </form>
                             </div>
 
                             <div class="right">
@@ -100,7 +106,9 @@
             </div>
         </section>
 
-
+        <p>
+            <a name="friendanchor"></a>
+        </p>
         <section class="pets-content">
             <div class="wrapper-4">
                 <div class="ourfriends">
@@ -137,13 +145,15 @@
                 </div>
 
                 <div class="button_two">
-                    <button class="button_primary">Get to know the rest</button>
+                    <form action="../our-pets/index.html"><button class="button_primary">Get to know the rest</button></form>
                 </div>
             </div>
         </section>
 
 
-
+        <p>
+            <a name="helpanchor"></a>
+        </p>
         <section class="help-content">
             <div class="wrapper-5">
                 <h2 class="how-you">How you can help our shelter</h2>
@@ -232,7 +242,9 @@
         </section>
 
 
-
+        <p>
+            <a name="contactsanchor"></a>
+        </p>
         <footer>
             <div class="footer-content">
                 <div class="wrapper-7">
