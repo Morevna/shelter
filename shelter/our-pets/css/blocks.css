@@ -102,6 +102,8 @@ main {
 }
 
 .card {
+    border-radius: 9px;
+    background: var(--color-light-s, #FAFAFA);
     display: flex;
     width: 270px;
     height: 435px;
@@ -110,6 +112,11 @@ main {
     align-items: center;
     gap: 30px;
     flex-shrink: 0;
+}
+
+.card:hover {
+    background-color: var(--color-light-xl);
+    box-shadow: 0rem 0.125rem 2.1875rem 0.875rem rgba(13, 13, 13, 0.04);
 }
 
 .names {
