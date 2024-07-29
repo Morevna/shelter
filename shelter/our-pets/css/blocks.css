@@ -181,6 +181,11 @@ main {
     background: var(--color-primary, #F1CDB3);
 }
 
+.button_paginator_active:hover {
+    border-radius: 100px;
+    background: var(--color-primary-light, #FDDCC4);
+}
+
 .button_paginator_two {
     display: flex;
     width: 52px;
@@ -194,6 +199,11 @@ main {
     background: transparent;
 }
 
+.button_paginator_two:hover {
+    border-radius: 100px;
+    background: #FDDCC4;
+}
+
 .button_paginator {
     display: flex;
     width: 52px;
@@ -205,6 +215,11 @@ main {
     border-radius: 100px;
     border: 2px solid var(--color-primary, #F1CDB3);
     background: transparent;
+}
+
+.button_paginator:hover {
+    border-radius: 100px;
+    background: #FDDCC4;
 }
 
 .button_paginator_text_inactive {

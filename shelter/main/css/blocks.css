@@ -131,6 +131,11 @@ a {
     background: var(--color-primary, #F1CDB3);
 }
 
+.button_primary:hover {
+    border-radius: 100px;
+    background: var(--color-primary-light, #FDDCC4);
+}
+
 .start-screen-puppy {
     width: 698px;
     height: 728px;
@@ -262,6 +267,11 @@ a {
     border-radius: 100px;
     border: 2px solid #F1CDB3;
     background: transparent;
+}
+
+.button_arrow:hover {
+    border-radius: 100px;
+    background: #FDDCC4;
 }
 
 .buttonarrow {
