@@ -240,6 +240,11 @@ a {
     background: transparent;
 }
 
+.button_secondary:hover {
+    border-radius: 100px;
+    background: var(--color-primary-light, #FDDCC4);
+}
+
 .button-text {
     color: var(--color-dark-l, #545454);
     text-align: center;
