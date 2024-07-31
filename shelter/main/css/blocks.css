@@ -21,7 +21,7 @@ html {
 .wrapper-3,
 .pets-content,
 .help-content,
-.donation-content,
+.wrapper-6,
 .wrapper-7 {
     width: 1280px;
     margin: auto;
@@ -380,6 +380,11 @@ a {
 
 /* 6 */
 .donation-content {
+    background: var(--color-light-l, #F6F6F6);
+    width: 100%;
+}
+
+.wrapper-6 {
     display: flex;
     width: 915px;
     height: 282px;
@@ -387,6 +392,14 @@ a {
     align-items: center;
     gap: 30px;
     flex-shrink: 0;
+}
+
+.layout-2-column-donat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    max-width: 1280рх;
 }
 
 .right-donat {
