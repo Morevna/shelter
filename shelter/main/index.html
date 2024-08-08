@@ -10,40 +10,48 @@
     <title>shelter</title>
 </head>
 
-<body>
+<div>
     <div class="start-screen">
         <header>
             <div class="container header-container">
-                    <a href="#">
-                        <div class="logo">
-                            <h2 class="logo-title">Cozy House</h2>
-                            <h3 class="logo-subtitle">Shelter for pets in Boston</h3>
-                        </div>
-                    </a>
+                <a class="logo" href="#">
+                    <h2 class="logo-title">Cozy House</h2>
+                    <h3 class="logo-subtitle">Shelter for pets in Boston</h3>
+                </a>
 
-                    <nav class="nav-menu">
-                        <ul class="header__list">
-                                <a class="shelter-link-active" href="#">About the shelter</a>
+                <nav class="nav-menu">
+                    <ul class="header__list">
 
-                            <li class="header__item">
-                                <a href="../our-pets/index.html">Our pets</a>
-                            </li>
+                        <li class="header__item">
+                            <a class="shelter-link-active" href="#">About the shelter</a>
+                        </li>
 
-                            <li class="header__item">
-                                <a href="#helpanchor">Help the shelter</a>
-                            </li>
+                        <li class="header__item">
+                            <a href="../our-pets/index.html">Our pets</a>
+                        </li>
 
-                            <li class="header__item">
-                                <a href="#contactsanchor">Contacts</a>
-                            </li>
-                        </ul>
-                    </nav>
+                        <li class="header__item">
+                            <a href="#helpanchor">Help the shelter</a>
+                        </li>
+
+                        <li class="header__item">
+                            <a href="#contactsanchor">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <button class="burger-button">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+
             </div>
         </header>
 
 
         <section class="not-only">
-            <div class="container">
+            <div class="container not-only-container">
                 <div class="not-only-left">
                     <h1 class="not-only-heading">Not only people need a house</h1>
                     <p class="not-only-subheading">We offer to give a chance to a little and nice puppy with an
@@ -64,8 +72,8 @@
         </section>
     </div>
 
-    <section class="about">
-        <div class="container">
+    <section class="about light">
+        <div class="container about-container">
             <div class="about-left">
                 <img class="about-pets-img" src="img/about-pets.png" alt="about pets">
             </div>
@@ -91,9 +99,9 @@
     <p>
         <a id="friendanchor"></a>
     </p>
-    <section class="our-friends">
-        <div class="container">
-            <h2 class="our-friends-heading">Our friends who are looking for a house</h2>
+    <section class="our-friends gray">
+        <div class="container our-friends-container">
+            <h2 class="our-friends-heading">Our friends who <br> are looking for a house</h2>
 
             <div class="list-and-button">
                 <button class="button_arrow">
@@ -132,11 +140,9 @@
                 </button>
             </div>
 
-            <div class="button_two">
                 <form action="../our-pets/index.html">
                     <button class="button_primary_two">Get to know the rest</button>
                 </form>
-            </div>
         </div>
     </section>
 
@@ -144,8 +150,8 @@
     <p>
         <a id="helpanchor"></a>
     </p>
-    <section class="help">
-        <div class="container">
+    <section class="help light">
+        <div class="container help-container">
             <h2 class="help-heading">How you can help our shelter</h2>
 
             <div class="icons-list">
@@ -199,8 +205,8 @@
 
 
 
-    <section class="in-addition">
-        <div class="container">
+    <section class="in-addition gray">
+        <div class="container in-addition-container">
             <div class="in-addition-left">
                 <img class="donation-dog" src="img/donation-dog.png" alt="donation dog">
             </div>
@@ -222,55 +228,52 @@
             </div>
         </div>
     </section>
+</div>
 
 
     <p>
         <a id="contactsanchor"></a>
     </p>
     <footer>
-        <div class="container">
-            <div class="footer-locations">
-                <h3 class="footer-contact">For questions and suggestions</h3>
+        <div class="container footer-container">
+            <div class="footer-contacts">
+                <h3 class="footer-headings">For questions and suggestions</h3>
 
-                <div class="contact-line">
-                    <a href="https://mail.ru/">
+                <div class="contact-column-one">
+                    <a class="contact-line" href="https://mail.ru/">
                         <img src="img/img_icons/icon-email.svg" alt="icon email">
                         <span class="text">email@shelter.com</span>
                     </a>
-                </div>
-
-                <div class="contact-line">
-                    <a href="tel:+136745677554">
+                    <a class="contact-line" href="tel:+136745677554">
                         <img src="img/img_icons/icon-phone.svg" alt="icon phone">
                         <span class="text">+13 674 567 75 54</span>
                     </a>
                 </div>
             </div>
 
-            <div class="footer-contacts">
-                <h3 class="footer-heading">We are waiting for your visit</h3>
 
-                <div class="contact-line">
-                    <a href="https://www.google.ru/maps">
+            <div class="footer-locations">
+                <h3 class="footer-headings">We are waiting for your visit</h3>
+
+                <div class="contact-column-two">
+                    <a class="contact-line" href="https://www.google.ru/maps">
                         <img src="img/img_icons/icon-marker.svg" alt="icon marker">
                         <span class="text">1 Central Street, Boston (entrance from the store)</span>
                     </a>
-                </div>
 
-                <div class="contact-line">
-                    <a href="https://www.google.ru/maps">
+
+                    <a class="contact-line" href="https://www.google.ru/maps">
                         <img src="img/img_icons/icon-marker.svg" alt="icon marker">
                         <span class="text">18 South Park, London</span>
                     </a>
                 </div>
             </div>
 
-            <div class="footer-right">
+            <div class="footer-img">
                 <img class="footer-puppy" src="img/footer-puppy.png" alt="footer puppy">
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>
