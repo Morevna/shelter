@@ -29,7 +29,7 @@
 @media (max-width: 320px) {
     .container {
         max-width: none;
-        padding: 0 30px;
+        padding: 0 0px;
     }
 }
 
@@ -144,17 +144,17 @@ a {
     cursor: default;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .nav-menu {
-      display: none;
+        display: none;
     }
-  }
+}
 
 .burger-menu {
     display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .burger-menu {
         width: 30px;
         height: 22px;
@@ -176,7 +176,24 @@ a {
 
 
 /* main */
+.main-container {
+    height: 1191px;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        height: 1582px;
+    }
+}
+
+@media (max-width: 320px) {
+    .main-container {
+        height: 1500px;
+    }
+}
+
 main {
+    overflow: hidden;
     padding: 50px;
     background: var(--color-light-l, #F6F6F6);
 }
@@ -185,13 +202,14 @@ main {
     padding: 0px;
     margin-bottom: 50px;
 }
+
 .our-friends {
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
+    gap: 58px;
 }
 
 .our-friends-heading {
@@ -380,6 +398,24 @@ footer {
     background-image: url(../img/start-screen-background.jpg);
     background-image: url(../img/start-screen-gradient-background.jpg), radial-gradient(circle farthest-corner at 0px 0px, #5B483A 0%, #e1bbce 65%);
     background-size: cover;
+}
+
+@media (max-width: 768px) {
+    footer {
+        height: 640px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        height: 640px;
+    }
+}
+
+@media (max-width: 320px) {
+    footer {
+        height: 810px;
+    }
 }
 
 .footer-container {

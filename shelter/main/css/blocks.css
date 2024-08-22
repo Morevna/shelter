@@ -63,6 +63,18 @@ img {
     background-size: cover;
 }
 
+@media (max-width: 768px) {
+    .start-screen {
+        height: 1165px;
+    }
+}
+
+@media (max-width: 320px) {
+    .start-screen {
+        height: 823px;
+    }
+}
+
 /* header */
 .header-container {
     max-width: 1280px;
@@ -174,9 +186,11 @@ a {
 }
 
 
+
 /* 2 */
 .not-only {
-    height: 787px;
+    overflow: hidden;
+    height: 788px;
 }
 
 .not-only-container {
@@ -187,6 +201,14 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (max-width: 768px) {
+    .not-only-container {
+        flex-direction: column;
+        /* gap: 100px 70px;
+        padding-top: 140px; */
+    }
 }
 
 .not-only-left {
@@ -245,11 +267,18 @@ a {
 }
 
 .not-only-right {
+    max-width: 100%;
     width: 698px;
     height: 728px;
     align-self: end;
     /* background-repeat: no-repeat;
     background: url(../img/start-screen-puppy.png); */
+}
+
+@media (max-width: 768px) {
+    .not-only-right {
+        max-height: 593px;
+    }
 }
 
 /* ----------------------- */
@@ -265,6 +294,22 @@ a {
 
 
 /* 3 */
+.about {
+    overflow: hidden;
+    height: 588px;
+}
+
+@media (max-width: 768px) {
+    .about {
+        height: 1047px;
+    }
+}
+
+@media (max-width: 320px) {
+    .about {
+        height: 974px;
+    }
+}
 
 .about-container {
     max-width: 850px;
@@ -312,6 +357,23 @@ a {
 
 
 /* 4 */
+.our-friends {
+    overflow: hidden;
+    height: 877px;
+}
+
+@media (max-width: 768px) {
+    .our-friends {
+        height: 879px;
+    }
+}
+
+@media (max-width: 320px) {
+    .our-friends {
+        height: 791px;
+    }
+}
+
 .our-friends-container {
     max-width: 1280px;
     margin: 0 auto;
@@ -443,6 +505,7 @@ a {
 
 /* 5 */
 .help-container {
+    overflow: hidden;
     max-width: 1200px;
     margin: 0 auto;
     padding: 80px 40px 100px;
@@ -452,6 +515,17 @@ a {
     gap: 60px;
 }
 
+@media (max-width: 768px) {
+    .help-container {
+        height: 778px;
+    }
+}
+
+@media (max-width: 320px) {
+    .help-container {
+        height: 745px;
+    }
+}
 
 .help-heading {
     text-align: center;
@@ -473,7 +547,7 @@ a {
     justify-content: center;
     height: 281px;
     column-gap: 120px;
-    row-gap: 35px;
+    row-gap: 53px;
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 40px;
@@ -484,11 +558,18 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    row-gap: 10px;
+    /* justify-content: space-between; */
+    row-gap: 30px;
+}
+
+.icon-img {
+    padding: 0px;
+    margin: 0;
 }
 
 .icon-text {
+    margin: 0;
+    padding: 0;
     color: var(--color-dark-l, #545454);
     text-align: center;
     font-family: Georgia;
@@ -502,6 +583,23 @@ a {
 
 
 /* 6 */
+.in-addition {
+    overflow: hidden;
+    height: 461px;
+}
+
+@media (max-width: 768px) {
+    .in-addition {
+        height: 783px;
+    }
+}
+
+@media (max-width: 320px) {
+    .in-addition {
+        height: 542px;
+    }
+}
+
 .in-addition-container {
     margin: 0 auto;
     padding: 80px 0 100px;
@@ -593,6 +691,18 @@ footer {
     background-size: cover;
 }
 
+@media (max-width: 768px) {
+    footer {
+        height: 639px;
+    }
+}
+
+@media (max-width: 320px) {
+    footer {
+        height: 810px;
+    }
+}
+
 .footer-container {
     max-width: 1280px;
     height: 350px;
@@ -668,4 +778,12 @@ footer {
 .footer-puppy {
     width: 300px;
     height: 310px;
+}
+
+
+@media (max-width: 1024px) {
+    .footer-container {
+        padding: 14px 53px 0;
+        row-gap: 65px;
+    }
 }
