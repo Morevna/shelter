@@ -1,3 +1,21 @@
+const burgerMenu = document.querySelector('.burger-menu');
+const navMenu = document.querySelector('.nav-menu');
+if (burgerMenu){
+    burgerMenu.addEventListener("click", function(e) {
+        document.body.classList.toggle('_lock')
+        burgerMenu.classList.toggle('_active');
+        navMenu.classList.toggle('_active');
+    });
+}
+
+// if (burgerMenu.classList.contains('_active')) { 
+//         document.body.classList.remove('_lock')
+//         burgerMenu.classList.remove('_active');
+//         navMenu.classList.remove('_active');
+// }
+
+
+
 console.log(`
     Проверка верстки +7
 

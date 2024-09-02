@@ -1,3 +1,18 @@
+// document.querySelector('.burger-menu').addEventListener('click', function () {
+//     this.classList.toggle('active');
+//     document.querySelector('.nav-menu').classList.toggle('open');
+// })
+
+const burgerMenu = document.querySelector('.burger-menu');
+const navMenu = document.querySelector('.nav-menu');
+if (burgerMenu){
+    burgerMenu.addEventListener("click", function(e) {
+        document.body.classList.toggle('_lock')
+        burgerMenu.classList.toggle('_active');
+        navMenu.classList.toggle('_active');
+    });
+}
+
 console.log(`Проверка верстки +7
 
 верстка страницы валидная: для проверки валидности вёрстки используйте сервис https://validator.w3.org/ . +4 - есть
