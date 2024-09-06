@@ -1,7 +1,37 @@
-// document.querySelector('.burger-menu').addEventListener('click', function () {
-//     this.classList.toggle('active');
-//     document.querySelector('.nav-menu').classList.toggle('open');
+// document.addEventListener("DOMContentLoaded", function () {
+
+
+
+//     // burger-menu
+
+//     document.getElementById('burger-menu').addEventListener('click', function () {
+//         document.querySelector('.burger-menu').classList.toggle('_active');
+//         document.querySelector('.nav-menu').classList.toggle('_active');
+//         document.getElementById('blackout').classList.toggle('blackout');
+//         document.getElementById('body').classList.toggle('_lock');
+
+//         document.getElementById('body').addEventListener('click', function () {
+//             document.querySelector('.burger-menu').classList.remove('_active');
+//             document.querySelector('.nav-menu').classList.remove('_active');
+//             document.getElementById('blackout').classList.remove('blackout');
+//             document.getElementById('body').classList.remove('_lock');
+//         });
+
+//         document.querySelectorAll('.nav-menu-link').forEach(function (item) {
+//             item.addEventListener('click', function () {
+//                 document.querySelector('.burger-menu').classList.remove('_active');
+//                 document.querySelector('.nav-menu').classList.remove('_active');
+//                 document.getElementById('blackout').classList.remove('blackout');
+//                 document.getElementById('body').classList.remove('_lock');
+//             });
+//         });
+//     });
+
+
 // })
+
+
+
 
 const burgerMenu = document.querySelector('.burger-menu');
 const navMenu = document.querySelector('.nav-menu');
@@ -10,8 +40,11 @@ if (burgerMenu){
         document.body.classList.toggle('_lock')
         burgerMenu.classList.toggle('_active');
         navMenu.classList.toggle('_active');
+        document.getElementById('blackout').classList.toggle('blackout');
     });
 }
+
+
 
 console.log(`Проверка верстки +7
 

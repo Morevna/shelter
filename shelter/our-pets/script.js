@@ -5,8 +5,17 @@ if (burgerMenu){
         document.body.classList.toggle('_lock')
         burgerMenu.classList.toggle('_active');
         navMenu.classList.toggle('_active');
+        document.getElementById('blackout').classList.toggle('blackout');
     });
 }
+
+// const box = document.querySelector('.box');
+// document.addEventListener('click', (e) => {
+//   const click = e.composedPath().includes(box);
+//   if ( !click ) {
+//     box.style.display = 'none';
+//   }
+// })
 
 // if (burgerMenu.classList.contains('_active')) { 
 //         document.body.classList.remove('_lock')
