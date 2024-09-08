@@ -482,8 +482,8 @@ main {
 
 .modal {
 	background-color: #fff;
-	width: 300px;
-	height: 300px;
+	width: 952px;
+    height: 552px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -497,8 +497,112 @@ main {
 }
 
 .modal--visible {
-	display: block;
+	display: flex;
 }
+/* ........ */
+
+.modal-wrapper {
+    position: relative;
+    margin: 188px auto;
+    box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
+    background-color: var(--color-light-s);
+    border-radius: 9px;
+    display: flex;
+    gap: 29px;
+    width: 900px;
+}
+
+.btn-modal {
+    position: absolute;
+    top: -52px;
+    right: -44px;
+}
+
+.btn-ring {
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    border: 2px solid var(--color-primary);
+    padding: 13px 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--color-dark-3xl);
+    outline: none;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.modal-img {
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.modal-conten {
+    margin-top: 50px;
+    width: 351px;
+    height: 362px;
+}
+
+.modal-heading {
+    margin: 1px 2px;
+    padding: 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #000;
+}
+
+.modal-subheading {
+    margin: 9px 2px 0;
+    padding: 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #000;
+}
+
+.modal-text {
+    margin: 40px 0 34px 1px;
+    padding: 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 113%;
+    letter-spacing: 0.06em;
+    color: #000;
+}
+
+.modal-list {
+    margin: 0;
+    padding: 0 0 0 17px;
+}
+
+.modal-item {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 190%;
+    letter-spacing: 0.1em;
+    color: #000;
+}
+
+li::marker {
+    color: var(--color-primary);
+}
+
+/* ...... */
+
 
 /* ///////////// */
 /* 3 */
